@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Takuya Matsuyama - Links</title>
+  <title>MIS AL-IKHLASH - Links</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./index.css" />
 
@@ -11,27 +11,28 @@
       <source src="./images/bg.m4v" type="video/mp4; codecs=hvc1">
       <source src="./images//bg.webm" type="video/webm; codecs=vp9">
     </video>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
   <script>
     window.addEventListener("DOMContentLoaded", () => {
       VANTA.BIRDS({
         el: "#vanta",
         mouseControls: true,
-        touchControls: true,
-        gyroControls: true,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        backgroundAlpha: 0.0,
-        color2: 0xff00f0,
-        wingSpan: 40.0,
-        separation: 100.0,
-        alignment: 77.0,
-        cohesion: 5.0,
-        quantity: 1.0,
-      });
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color1: 0x466254,
+  colorMode: "variance",
+  birdSize: 1.10,
+  wingSpan: 21.00,
+  separation: 69.00,
+  alignment: 25.00,
+  cohesion: 52.00,
+  quantity: 4.00
+})
 
       setTimeout(() => {
         const main = document.querySelector("main");
