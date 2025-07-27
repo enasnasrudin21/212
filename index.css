@@ -75,7 +75,7 @@ ul {
   list-style: none;
   margin: 0 auto;
   padding: 1em;
-  max-width: 305px;
+  max-width: 290px;
 }
 
 ul > li {
@@ -93,7 +93,7 @@ ul > li > a {
   justify-content: center;
   align-items: center;
   gap: 0.5em;
-  padding: 0.7em;
+  padding: 0.8em;
 }
 
 a {
